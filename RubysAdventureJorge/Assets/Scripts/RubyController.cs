@@ -59,6 +59,12 @@ public class RubyController : MonoBehaviour
             if (invinvibleTimer < 0)
                 isInvincible = false;
         }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Launch();
+        }
+         
     }
 
     void FixedUpdate()
@@ -75,7 +81,7 @@ public class RubyController : MonoBehaviour
     {
          if (amount < 0)
         {
-            animator.SetTrigger("Hit");
+          
             if (isInvincible)
                 return;
 
