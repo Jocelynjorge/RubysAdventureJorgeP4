@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3589592820039356882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.4613, y: -4.6077, z: 0}
-  m_LocalScale: {x: 1.002, y: 0.9566, z: 1}
+  m_LocalScale: {x: 0.953544, y: 0.9044364, z: 0.726}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,8 +102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
-  timeInvincible: 2
+  projectilePrefab: {fileID: 7926804683949174073, guid: 0c3886faa7424ff49964086a1fc72074, type: 3}
   currentHealth: 0
+  timeInvincible: 2
 --- !u!50 &4885950659005043947
 Rigidbody2D:
   serializedVersion: 4
@@ -122,7 +123,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &323208426397060066
